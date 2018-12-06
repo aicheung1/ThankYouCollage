@@ -142,7 +142,7 @@ void draw(){
     rect(280,60,280,500);
     img = loadImage("thank you.jpg");
     image(img,290,65,width/2.3,height/2);
-    font = loadFont("VladimirScript-48.vlw");
+    font = createFont("VladimirScript-48.vlw");
     textFont(font);
     textSize(25);
     fill(0);
