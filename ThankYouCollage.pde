@@ -1,3 +1,4 @@
+/* @pjs preload="thank you.jpg"; */
 PImage img;
 PFont font;
 boolean q = true;
