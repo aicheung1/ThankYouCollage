@@ -143,8 +143,8 @@ void draw(){
     rect(280,60,280,500);
     img = loadImage("thank you.jpg");
     image(img,290,65,width/2.3,height/2);
-    font = loadFont("VladimirScript-48.vlw");
-    textFont(font);
+    font = createFont("VladimirScript-48.vlw");
+    textFont(VladimirScript-48.vlw);
     textSize(25);
     fill(0);
     text("for wasting your money on me",300,340);
