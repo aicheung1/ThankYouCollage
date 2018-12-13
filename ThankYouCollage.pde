@@ -144,6 +144,7 @@ void draw(){
     img = loadImage("thank you.jpg");
     image(img,290,65,width/2.3,height/2);
     font = createFont("VladimirScript-48.vlw");
+    drawingContext.font = 'VladimirScript-48.vlw';
     textFont(font);
     textSize(25);
     fill(0);
