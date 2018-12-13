@@ -29,7 +29,7 @@ void draw(){
   noStroke();
   fill(0,0,random(180,250));
   rect(x1,500,100,100);
-  x1=x1+5;
+  x1=x1+10;
   if(x1==600){
     q = false;
     w = true;
@@ -38,7 +38,7 @@ void draw(){
   if(w==true){
   fill(0,0,random(180,250));
   rect(500,x2,100,100);
-  x2=x2-5;
+  x2=x2-10;
   if(x2==0){
     w = false;
     e = true;
@@ -47,7 +47,7 @@ void draw(){
   if(e==true){
   fill(0,0,random(180,250));
   rect(x3,0,100,100);
-  x3=x3-5;
+  x3=x3-10;
   if(x3==-20){
     e = false;
     r = true;
@@ -56,7 +56,7 @@ void draw(){
   if(r==true){
   fill(0,0,random(180,250));
   rect(0,x4,100,100);
-  x4=x4+5;
+  x4=x4+10;
   if(x4==600){
     r = false;
     t = true; 
@@ -143,8 +143,7 @@ void draw(){
     rect(280,60,280,500);
     img = loadImage("thank you.jpg");
     image(img,290,65,width/2.3,height/2);
-    font = createFont("VladimirScript-48.vlw");
-    drawingContext.font = 'VladimirScript-48.vlw';
+    font = loadFont("VladimirScript-48.vlw");
     textFont(font);
     textSize(25);
     fill(0);
